@@ -203,40 +203,45 @@ body {
 }
 
 .khat-container{
+  position: relative;
   display: flex;
   width: 32px;
   height: 40px;
+  padding-top: 5px;
   justify-content: center;
   align-items: center;
 }
 
 .khat{
   position: relative;
-  /* top: 25px; */
-  /* right: 20px; */
   width: 30px;
   height: 2px;
   background-color: #e75e8d;
+  opacity: 1;
+  transition: all 0.5s ease;
 }
 
-.khat::after{
-  content: "";
-  position: absolute;
-  width: 75%;
-  height: 2px;
-  left: 0;
-  transform: translateY(10px);
-  background-color: #e75e8d;
-}
 
-.khat::before{
+.khat-container div:nth-child(2){
   content: "";
   position: absolute;
-  width: 75%;
+  width: 21px;
   height: 2px;
   left: 0;
   transform: translateY(-10px);
   background-color: #e75e8d;
+  transition: all 0.5s ease;
+}
+
+.khat-container div:nth-child(3){
+  content: "";
+  position: absolute;
+  width: 21px;
+  height: 2px;
+  left: 0;
+  transform: translateY(10px);
+  background-color: #e75e8d;
+  transition: all 0.5s ease;
 }
 
 .mobile-menu-container{
