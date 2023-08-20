@@ -657,4 +657,8 @@ footer{
   .games-dotayi{
     flex-direction: column;
   }
+
+  .game{
+    margin: 10px 0px 10px 0px;
+  }
 }
