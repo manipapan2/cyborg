@@ -1,11 +1,10 @@
 # Cyborg
 This website is made from a pre-design design which is totally responsive
 
-![Cyrborg Screenshot](./Cyborg.png)
 
-<!-- <p align="center">
+<p align="center">
   <img src="./Cyborg.png" alt="Cyborg Screenshot" width="700">
-</p> -->
+</p>
 
 
 
