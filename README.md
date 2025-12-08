@@ -1,5 +1,4 @@
 # Cyborg
-This website is made from a pre-design design which is totally responsive
 
 
 <p align="center">
